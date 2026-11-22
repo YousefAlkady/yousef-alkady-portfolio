@@ -1,0 +1,7 @@
+{
+  "name": "yousef-portfolio",
+  "compatibility_date": "2026-11-17",
+  "assets": { "directory": "./out", "html_handling": "auto-trailing-slash", "not_found_handling": "404-page" },
+  "routes": [{ "pattern": "yousef.unilinkcampus.com", "custom_domain": true }],
+  "observability": { "enabled": false }
+}

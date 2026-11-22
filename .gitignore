@@ -1,0 +1,22 @@
+node_modules
+.next
+.next-dev
+out
+.wrangler
+perf
+*.tsbuildinfo
+.env*.local
+
+# secrets and local tooling (never commit)
+.env*
+!.env.example
+.wrangler
+.vercel
+*.pem
+*.key
+
+# third-party 3D models (Sketchfab licences don't allow redistributing the files; credits are on the site)
+public/media/hub/*.glb
+# personal / unpublished documents, served on the live site only
+public/Yousef-Alkady-CV.pdf
+public/papers/
